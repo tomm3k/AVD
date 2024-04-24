@@ -18,4 +18,3 @@ Get-Process ms-Teams | Stop-Process -Force
 $NewFileContent=$JSONObject | ConvertTo-Json
 # Update configuration in file
 $NewFileContent | Set-Content -Path "$ENV:localAPPDATA\packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\app_settings.json"
-
